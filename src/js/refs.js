@@ -24,6 +24,7 @@ export function printGames(games, listEl) {
             <button type="submit">Submit</button>
         </form>
         </li>`).join('');
+        
 
     const btnsDelete = document.querySelectorAll('[name="deleteMatch"]');
     const btnsEdit = document.querySelectorAll('[name="edit"]');
